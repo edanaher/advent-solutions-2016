@@ -12,11 +12,11 @@ Rules
 -----
 While the goal was to have fun, I followed the following approximate rules:
 
-- Each language can only be used once
-- Even though I'm starting late, no looking ahead.  Combined with the above, this mean's I'll try to use interesting languages early, and save the easier ones for harder problems
+- Each language can only be used once.
+- Even though I'm starting late, no looking ahead.  Combined with the above, this mean's I'll try to use interesting languages early, and save the easier ones for harder problems.
 - Where possible, prefer "interesting" languages.
-- Each solution must use as little scaffolding as possible (e.g., not using sed to massage the input into a more useful form unless absolutely necessary)
-- Each solution should read from stdin
+- Each solution must use as little scaffolding as possible (e.g., not using sed to massage the input into a more useful form unless absolutely necessary); however, for simplicity, `make [day number][a or b]` will run that day, assuming an appropriate environment.
+- Each solution should read from stdin.
 
 Languages
 ---------
@@ -24,10 +24,12 @@ Languages
 ### "Interesting"
 - ARM assembly
 - awk
+- bash
 - bc
 - befunge
 - brainf*ck
 - cpp (C preprocessor)
+- csh
 - C++ templates
 - dc
 - Intercal
@@ -37,6 +39,7 @@ Languages
 - prolog
 - sed
 - shakespeare
+- SQL
 - x86 assembly
 
 ### "Boring"
