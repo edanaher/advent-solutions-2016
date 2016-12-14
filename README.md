@@ -23,7 +23,7 @@ Languages
 
 ### "Interesting"
 - ARM assembly
-- awk
+- ~~awk~~ (day 1)
 - bash
 - bc
 - befunge
