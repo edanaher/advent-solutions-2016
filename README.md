@@ -40,6 +40,7 @@ Languages
 - sed
 - shakespeare
 - SQL
+- unlambda
 - x86 assembly
 
 ### "Boring"
