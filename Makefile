@@ -3,3 +3,7 @@
 
 1b:
 	awk -f day01b.awk
+
+# https://github.com/FabianM/brainfuck.git
+2a:
+	brainfuck -f day02a.bf
