@@ -27,7 +27,7 @@ Languages
 - bash
 - bc
 - befunge
-- brainf*ck
+- ~~brainf*ck~~ (day 2)
 - cpp (C preprocessor)
 - csh
 - C++ templates
