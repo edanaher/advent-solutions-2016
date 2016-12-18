@@ -31,7 +31,7 @@ Languages
 - cpp (C preprocessor)
 - csh
 - C++ templates
-- dc
+- ~~dc~~ (day 3)
 - Intercal
 - J
 - jq

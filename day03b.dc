@@ -1,0 +1,30 @@
+# Set up registers
+0 sr         # Initialize the resulting count to 0
+[1+]si       # i is a macro to increment if the sides are reasonable
+[lr 1+ sr]st # t is a macro to increment r if its a triangle
+
+# Increment r if a triangle is valid
+[
+sa sb sc      # Store the three sides
+0             # No good sides yet
+la lb + lc <i # Check if each side is good
+la lc + lb <i
+lb lc + la <i
+3 =t          # If they're all good, increment r
+] sv
+
+# The main loop
+[
+Sx Sx Sx  # Store the three triangles at the three levels of x, y, and z
+Sy Sy Sy
+Sz Sz Sz
+
+Lx Ly Lz lvx # And run the three triangles
+Lx Ly Lz lvx
+Lx Ly Lz lvx
+
+z 2 <l        # And if there's stuff left on the stack, run again
+] sl
+
+llx  # Run the loop
+lrp  # Print r
