@@ -21,3 +21,6 @@
 # http://www.golfscript.com/golfscript/index.html
 4a:
 	golfscript.rb day04a.golf
+
+4b:
+	golfscript.rb day04b.golf | grep -i north

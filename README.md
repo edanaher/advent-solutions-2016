@@ -33,7 +33,7 @@ Languages
 - csh
 - C++ templates
 - ~~dc~~ (day 3)
-- golfscript
+- ~~golfscript~~ (day 4)
 - Intercal
 - J
 - jq

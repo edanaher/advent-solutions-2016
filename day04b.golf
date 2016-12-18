@@ -1,0 +1,12 @@
+"\n"% { # Split on newline, and map over each line
+  [
+  "["/ (\;         # Get rid of the checksum
+  '-'/ )~. 26%:r;\ # Split on dashes and get the amount to rotate in r
+  { # for each word
+    [{}*] # fold into numbers
+    { # for each letter
+      r + 96- 26% 96+
+    }% ''+
+  }% " "*
+  ] ": " *
+}% "\n" *
