@@ -28,14 +28,17 @@ Languages
 - bc
 - befunge
 - ~~brainf*ck~~ (day 2)
+- [chef](http://www.dangermouse.net/esoteric/chef.html)
 - cpp (C preprocessor)
 - csh
 - C++ templates
 - ~~dc~~ (day 3)
+- golfscript
 - Intercal
 - J
 - jq
 - nix
+- postscript
 - prolog
 - sed
 - shakespeare

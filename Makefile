@@ -17,3 +17,7 @@
 
 3b:
 	dc -f - -f day03b.dc
+
+# http://www.golfscript.com/golfscript/index.html
+4a:
+	golfscript.rb day04a.golf

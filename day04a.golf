@@ -1,0 +1,16 @@
+"\n"% { # Split on newline, and map over each line
+  "["/ ~         # Split on [ to get the code and checksum.
+  ); \           # Remove the ] from checksum and swap with code
+  '-'/ )~ @@ ""* # Split on -, rotate the last fiedl (numbers) to top and rejoin without -
+  $              # sort
+  [{.2$=\}*]     # Set 0 for different adjacent, 1 for same
+  [1]/[]*        # Remove 1s by splitting and joining
+  [0]/           # Split by 0; now grouped by value
+  {[ .,-1* \(\; ]}% # Replace with negative length, first value array
+  $              # Sort
+  { [)\;] }%''*  # Pull out letters
+  5 <            # Take only the first five letters
+  =              # Check if it matches the first code
+  *              # And multiply the id to count it or not.
+}%
+{+}*  # Fold plus to get the final sum
