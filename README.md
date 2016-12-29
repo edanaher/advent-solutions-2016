@@ -40,10 +40,14 @@ Languages
 - nix
 - postscript
 - prolog
+- ragel(?)
 - sed
 - shakespeare
 - SQL
+- tex
 - unlambda
+- vim script?
+- vim keystroke macros
 - x86 assembly
 
 ### "Boring"
